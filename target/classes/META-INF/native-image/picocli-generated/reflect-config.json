@@ -1,0 +1,108 @@
+[
+  {
+    "name" : "com.ethicalhackingai.App",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true
+  },
+  {
+    "name" : "com.ethicalhackingai.cli.CommandParser",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "epsilon" },
+      { "name" : "gradient" },
+      { "name" : "input" }
+    ]
+  },
+  {
+    "name" : "com.ethicalhackingai.cli.FgsmCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "epsilon" },
+      { "name" : "imagePath" },
+      { "name" : "outputPath" }
+    ]
+  },
+  {
+    "name" : "com.ethicalhackingai.cli.OSFingerprintCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "target" }
+    ]
+  },
+  {
+    "name" : "com.ethicalhackingai.cli.PortScanCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "endPort" },
+      { "name" : "format" },
+      { "name" : "host" },
+      { "name" : "startPort" },
+      { "name" : "synScan" },
+      { "name" : "threads" },
+      { "name" : "timeout" }
+    ]
+  },
+  {
+    "name" : "com.ethicalhackingai.cli.SubdomainCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "domain" },
+      { "name" : "wordlistPath" }
+    ]
+  },
+  {
+    "name" : "com.ethicalhackingai.cli.SynScanCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "endPort" },
+      { "name" : "host" },
+      { "name" : "startPort" },
+      { "name" : "timeout" }
+    ]
+  },
+  {
+    "name" : "com.ethicalhackingai.pgd.PGDCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "alpha" },
+      { "name" : "epsilon" },
+      { "name" : "gradient" },
+      { "name" : "input" },
+      { "name" : "iterations" }
+    ]
+  },
+  {
+    "name" : "picocli.CommandLine$AutoHelpMixin",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "helpRequested" },
+      { "name" : "versionRequested" }
+    ]
+  }
+]
